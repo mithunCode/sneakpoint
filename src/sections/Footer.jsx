@@ -1,5 +1,5 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
+import { headerlogomain } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -8,7 +8,13 @@ const Footer = () => {
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a href="/">
-            <img src={footerLogo} alt="" width={150} height={46} />
+            <img
+              src={headerlogomain}
+              alt=""
+              width={80}
+              height={30}
+              className="	"
+            />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
             Get shoes ready for the new term at your nearest SneakPoint store.
